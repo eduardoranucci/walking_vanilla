@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=UnifrakturCook:wght@700&display=swap');
+
+@font-face {
+    font-family:"Canterbury";
+    src: url("../components/fonts/Canterbury.ttf") format("truetype");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(132, 14, 201);
+    margin: 23px;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: rgb(23, 23, 23);
+    margin: 0 auto;
+}
+
+header {
+    height:  10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+}
+
+ul {
+    display: flex;
+    margin: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li {
+    font-size: 15px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+div {
+    font-family: 'Canterbury';
+    font-size: 45px;
+    color: white;
+    margin: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 2rem;
+}
