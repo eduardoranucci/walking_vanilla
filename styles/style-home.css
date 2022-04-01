@@ -5,6 +5,11 @@
     src: url("../components/fonts/Canterbury.ttf") format("truetype");
   }
 
+@font-face {
+    font-family:"Black-chancery";
+    src: url("../components/fonts/blackchancery.regular.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -60,15 +65,22 @@ div {
     padding-right: 2rem;
 }
 
-main {
+.the-home-recordings {
     display: flex;
     flex-direction: row;
     margin: 60px;
     margin-top: 50px;
 }
 
+.five {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    margin-top: 50px;    
+}
+
 h2 {
-    font-family: 'Canterbury';
+    font-family: 'Black-chancery';
     font-size: 35px;
     color: white;
     margin-left: 20px;
@@ -77,6 +89,7 @@ h2 {
 
 p {
     font-family: 'Roboto';
+    font-size: 20px;
     color: white;
     margin-left: 20px;
     margin-top: 30px;
