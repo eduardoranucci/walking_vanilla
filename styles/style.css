@@ -34,6 +34,7 @@ ul {
     margin: 23px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 100px;
 }
 
 li {
@@ -42,6 +43,11 @@ li {
     list-style-type: none;
     cursor: pointer;
     padding-left: 2rem;
+}
+
+li:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
 }
 
 div {
