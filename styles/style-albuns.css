@@ -81,15 +81,18 @@ div {
 
 h2 {
     font-family: 'Black-chancery';
-    font-size: 35px;
+    font-size: 45px;
     color: white;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-h2:hover {
-    color: rgb(132, 14, 201);
-    transition: 0.3s all;
+h3 {
+    font-family: 'Black-chancery';
+    font-size: 35px;
+    color: gray;
+    margin-left: 60px;
+    margin-top: 40px;
 }
 
 p {
@@ -101,5 +104,10 @@ p {
 }
 
 img {
-    width: 170px;
+    width: 200px;
+}
+
+audio {
+    margin-left: 60px;
+    margin-top: 20px;
 }
