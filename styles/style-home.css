@@ -16,7 +16,7 @@
 }
 
 h1 {
-    color: rgb(132, 14, 201);
+    color: rgb(23, 23, 23);
     margin: 23px;
 }
 
@@ -32,6 +32,25 @@ header {
     justify-content: space-between;
     background-color: rgb(15, 15, 15);
     box-shadow: 0 0 1rem black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:  10vh;
+    justify-content: space-around;
+    display: flex;
+}
+
+.bottom-footer a{
+    margin-left: 50px;
+}
+
+.bottom-footer img{
+    height: 50px;
+    width: 50px;
 }
 
 ul {

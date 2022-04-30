@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=UnifrakturCook:wght@700&display=swap');
+
+@font-face {
+    font-family:"Canterbury";
+    src: url("../components/fonts/Canterbury.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family:"Black-chancery";
+    src: url("../components/fonts/blackchancery.regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(132, 14, 201);
+    margin: 23px;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: rgb(23, 23, 23);
+    margin: 0 auto;
+}
+
+header {
+    height:  10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:  10vh;
+    justify-content: space-around;
+    display: flex;
+}
+
+.bottom-footer a{
+    margin-left: 50px;
+}
+
+.bottom-footer img{
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    display: flex;
+    margin: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+}
+
+li {
+    font-size: 15px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+li:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+div {
+    font-family: 'Canterbury';
+    font-size: 45px;
+    color: white;
+    margin: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 2rem;
+}
+
+.the-home-recordings {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: 'Black-chancery';
+    font-size: 45px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'Black-chancery';
+    font-size: 35px;
+    color: gray;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+img {
+    width: 200px;
+}
+
+audio {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-top: 50px;
+    border-radius:12px;
+    margin-left: 10%;
+}

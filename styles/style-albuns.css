@@ -34,6 +34,25 @@ header {
     box-shadow: 0 0 1rem black;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:  10vh;
+    justify-content: space-around;
+    display: flex;
+}
+
+.bottom-footer a{
+    margin-left: 50px;
+}
+
+.bottom-footer img{
+    height: 50px;
+    width: 50px;
+}
+
 ul {
     display: flex;
     margin: 23px;
@@ -65,18 +84,11 @@ div {
     padding-right: 2rem;
 }
 
-.the-home-recordings {
-    display: flex;
-    flex-direction: row;
-    margin: 60px;
-    margin-top: 40px;
-}
-
 .five {
     display: flex;
     flex-direction: row;
     margin: 60px;
-    margin-top: 50px;    
+    margin-top: 40px;
 }
 
 h2 {
@@ -110,4 +122,10 @@ img {
 audio {
     margin-left: 60px;
     margin-top: 20px;
+}
+
+iframe {
+    margin-top: 50px;
+    border-radius:12px;
+    margin-left: 10%;
 }
